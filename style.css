@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 body{
     background: linear-gradient(to left, rgb(224, 223, 223), rgb(197, 195, 195));
 }
@@ -6,56 +12,67 @@ body{
     padding: 20px;
     border-radius: 1em;
     height: 580px;
-    width: 490px;
+    width: 530px;
     margin: auto;
     margin-top: 40px;
-    background-color: rgb(155, 155, 150);
+    background-color: rgb(26, 25, 25);
     box-shadow: rgba(0, 0, 0, 0.171) 0px 10px 40px, rgba(0, 0, 0, 0.363) 0px 6px 22px;
 }
 
 .display-box{
-    background-color: #dcdbe1;
+    margin-top: 20px;
+    background-color: #dcdbe100;
     border: none;
+    font-size: 50px;
     font-weight: 800;
-    color: black;
+    color: #fff;
     border-radius: 20px;
     width: 98%;
     height: 65%;
 }
 
 #btn{
-    background-color: rgba(255, 0, 0, 0.425);
+    background-color:  #92909471;
+    transition: 0.8s;
 }
 
 #btn:hover{
-    background-color: rgba(255, 0, 0, 0.499);
+    background-color: #92909471;
+    transform: translateY(-5px);
 }
 
 #btnClear{
     border-radius: 50px;
-    background-color: rgba(255, 0, 0, 0.425);
+    background-color: #92909471;
+    transition: 0.8s;
 }
 
 #btnClear:hover{
-    background-color: rgba(255, 0, 0, 0.499);
+    transform: translateY(-5px);
+}
+
+#specKey{
+    background-color: orange;
 }
 
 input[type=button] {
+    margin-top: 30px;
     margin-left: 5px;
     cursor: pointer;
-    font-size: 25px;
+    padding: 24px;
+    font-size: 20px;
     border: none;
     color: #fff;
-    width: 100%;
+    width: 97%;
     border-radius: 100px;
     height: 70%;
     outline: none;
-    background-color: #6d6c6e;
+    background-color: #6d6c6e36;
     box-shadow:  rgba(0, 0, 0, 0.116) 0px 10px 20px, rgba(0, 0, 0, 0.151) 0px 6px 6px;
 }
 
 input[type=button]:hover{
-    background: #585758;
+    background: #58575857;
 }
 
 input:active[type=button] {
