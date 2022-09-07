@@ -1,0 +1,66 @@
+body{
+    background: linear-gradient(to left, rgb(224, 223, 223), rgb(197, 195, 195));
+}
+
+.calculator{
+    padding: 20px;
+    border-radius: 1em;
+    height: 580px;
+    width: 490px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(155, 155, 150);
+    box-shadow: rgba(0, 0, 0, 0.171) 0px 10px 40px, rgba(0, 0, 0, 0.363) 0px 6px 22px;
+}
+
+.display-box{
+    background-color: #dcdbe1;
+    border: none;
+    font-weight: 800;
+    color: black;
+    border-radius: 20px;
+    width: 98%;
+    height: 65%;
+}
+
+#btn{
+    background-color: rgba(255, 0, 0, 0.425);
+}
+
+#btn:hover{
+    background-color: rgba(255, 0, 0, 0.499);
+}
+
+#btnClear{
+    border-radius: 50px;
+    background-color: rgba(255, 0, 0, 0.425);
+}
+
+#btnClear:hover{
+    background-color: rgba(255, 0, 0, 0.499);
+}
+
+input[type=button] {
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    border: none;
+    color: #fff;
+    width: 100%;
+    border-radius: 100px;
+    height: 70%;
+    outline: none;
+    background-color: #6d6c6e;
+    box-shadow:  rgba(0, 0, 0, 0.116) 0px 10px 20px, rgba(0, 0, 0, 0.151) 0px 6px 6px;
+}
+
+input[type=button]:hover{
+    background: #585758;
+}
+
+input:active[type=button] {
+    background: #6d6c6e;
+    -webkit-box-shadow: inset 0px 0px 5px #585758;
+    -moz-box-shadow: inset 0px 0px 5px #585758;
+    box-shadow: inset 0px 0px 5px #585758;
+}
