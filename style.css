@@ -20,14 +20,15 @@ body{
 }
 
 .display-box{
+    margin-left: 20px;
     margin-top: 20px;
     background-color: #dcdbe100;
     border: none;
-    font-size: 50px;
-    font-weight: 800;
+    font-size: 68px;
+    font-weight: 200;
     color: #fff;
     border-radius: 20px;
-    width: 98%;
+    width: 95%;
     height: 65%;
 }
 
