@@ -52,7 +52,13 @@ body{
 }
 
 #specKey{
+    padding: 26px;
     background-color: orange;
+    transition: 0.3s;
+}
+
+#specKey:hover{
+    transform:translateX(1px);
 }
 
 input[type=button] {
